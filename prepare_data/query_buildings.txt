@@ -1,0 +1,17 @@
+/*
+Class:
+“building”
+*/
+[out:json][timeout:25];
+// gather results
+(
+  // query part for: “building”
+  way["building"](YMIN, XMIN, YMAX, XMAX);
+);
+
+// print results
+out body;
+>;
+out skel qt;
+
+
